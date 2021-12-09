@@ -52,7 +52,6 @@ class RockPaperScissors {
     } else {
       System.out.print("\n" + "That isn't a valid choice. Please try again.");
     }
-    System.out.print("\n");
   }
 
   public static void main(String[] args) {
