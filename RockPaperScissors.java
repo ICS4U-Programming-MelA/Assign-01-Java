@@ -13,7 +13,7 @@ import java.util.Scanner;
 class RockPaperScissors {
   public static void rockPaperScissors(String gameChoice) {
 
-    // Declare constants.
+    // Generate a random number.
     Random random = new Random();
     int randomInt = random.nextInt(3 - 0) + 0;
 
