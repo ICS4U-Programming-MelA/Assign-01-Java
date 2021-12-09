@@ -32,7 +32,7 @@ class RockPaperScissors {
     System.out.print("The program chose: " + programGameChoice);
     System.out.print("\n");
 
-    // Display the outcome.
+    // Compare the user's choice to the program's choice and display the outcome.
     if (gameChoice.equals(programGameChoice)) {
       System.out.print("\n" + "It's a tie! Restart to try again.");
     } else if (gameChoice.equals("rock") && programGameChoice.equals("scissors")) {
